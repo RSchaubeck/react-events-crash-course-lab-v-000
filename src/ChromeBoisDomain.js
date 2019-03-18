@@ -12,6 +12,7 @@ export default class ChromeBoisDomain extends Component {
      */
      const x = event.clientX;
      const y = event.clientY;
+     drawChromeBoiAtCoords(x,y);
   }
 
   /* TODO: Create an event handler which, when fired, invokes the provided
